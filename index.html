@@ -3,16 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML Project</title>
+  <title>Document</title>
 </head>
 <body>
-  <ul>
-    <li>Home</li>
-    <li>About</li>
-    <li>Contact</li>
-  </ul>
   
+<!--Begin the navigation-->
+<nav>
+  <a href="https://www.npower.org/">Home</a>
+  <a href="https://www.npower.org/about/">About</a>
+  <a href="https://www.npower.org/contact-us/">Contact</a>
+</nav>
+<!--First secion goes here-->
+  <section>
+    <h1>IT Team Members</h1>
+    <h2>Add New Member</h2>
+    <aside>First Name</aside>
+    <br>
+    <form>
+      <label for="FN_Form">
+        <input type="text" placeholder="John" name="practice_form" id="FN_Form">
+      </label>
+    </form>
+    <br>
+    <aside>Last Name</aside>
+    <br>
+    <form>
+      <label for="LN_Form">
+        <input type="text" placeholder="Doe" name="practice_form" id="LN_Form">
+      </label>
+    </form>
+    <br>
+    <aside>Role</aside>
+    <br>
+    <form>
+      <label for="Role_Form">
+        <input type="text" placeholder="Developer" name="practice_form" id="Role_Form">
+      </label>
+    </form>
+    <br>
+    <aside>Email</aside>
+    <br>
+      <form>
+        <label for="Email_Form">
+          <input type="text" placeholder="email@email.com" name="practice_form" id="Email_Form">
+        </label>
+      </form>
+      <button type="Submit">Add Member</button>
+  </section>
+<!--Begin the next section: Team Members-->
+  <section>
+    <h2>Team Members</h2>
+    <table border="1">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Role</th>
+        <th>Email</th>
+      </tr>
+
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>Developer</td>
+        <td>johndoe@npower.net</td>
+      </tr>
+      <tr>
+        <td>Jane</td>
+        <td>Doe</td>
+        <td>Designer</td>
+        <td>janedoe@npower.net</td>
+      </tr>
+      <tr>
+        <td>Mike</td>
+        <td>Smith</td>
+        <td>Tester</td>
+        <td>miketester@npower.net</td>
+      </tr>
+    </table>
+    <br>
+    <span> NPower © 2024</span>
+  </section>
   <br>
-  <H1>IT Team </H1>
-  </body>
-  </html>
+  <br>
+  <br>
+</body>
+</html>
